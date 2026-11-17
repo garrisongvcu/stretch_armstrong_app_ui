@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "dev": "parcel client/index.html --port 1234",
+    "build": "parcel build client/index.html"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
@@ -11,6 +13,13 @@
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
     "jade": "~1.11.0",
-    "morgan": "~1.9.1"
+    "morgan": "~1.9.1",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-router-dom": "^6.30.6"
+  },
+  "devDependencies": {
+    "@swc/wasm": "^1.16.22",
+    "parcel": "^2.16.4"
   }
 }
