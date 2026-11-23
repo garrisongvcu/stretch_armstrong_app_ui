@@ -4,7 +4,7 @@
 
 ---
 
-## 📋 Project Overview
+## Project Overview
 
 This application serves as the mobile-responsive client interface for a private gym centered on science-driven, trainer-monitored athletic workouts. 
 
@@ -15,7 +15,7 @@ The primary business objective is to eliminate traditional paper-based workout b
 
 ---
 
-## 🏗️ Tech Stack & Architecture
+## Tech Stack & Architecture
 
 In alignment with course guidance for introductory graduate development:
 * **UI Framework:** [React.js](https://react.dev) (Standard Function Components & Hooks: `useState`, `useEffect`)
@@ -26,9 +26,9 @@ In alignment with course guidance for introductory graduate development:
 
 ---
 
-## 🚀 Repository Consolidation Roadmap (Upcoming Iteration)
+## Repository Consolidation Roadmap (Upcoming Iteration)
 
-> ⚠️ **Important Notice on Monorepo Migration (Sprint 2 / US-2.1):**
+>  **Important Notice on Monorepo Migration (Sprint 2 / US-2.1):**
 > 
 > Currently, the frontend client (`stretch_armstrong_app_ui`) and the backend API (`stretch_armstrong_app_services`) exist as isolated repositories. To streamline pull requests, eliminate cross-repo branch drift, and resolve merge conflicts, **the services repository will be merged into this repository in an upcoming commit/iteration**.
 > 
@@ -53,7 +53,7 @@ In alignment with course guidance for introductory graduate development:
 
 ---
 
-## 🛠️ Getting Started (Local Development)
+## Getting Started (Local Development)
 
 ### Prerequisites
 * [Node.js](https://nodejs.org) installed on your machine (`v18.x` or higher recommended).
