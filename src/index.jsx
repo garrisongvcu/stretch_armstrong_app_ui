@@ -35,9 +35,33 @@ root.render(
         <main>
             <Routes>
                  <Route path="/" element={<Navigate to="/dashboard" replace />}/>
-                <Route path="/dashboard" element={<h2>Dashboard</h2>} />
-                <Route path="/workout" element={<h2>Workout</h2>} />
-                <Route path="/history" element={<h2>History</h2>} />
+                <Route path="/dashboard" element={
+                  <div>
+                    <h2 className="font-bold">Dashboard</h2>
+                    <div className="mt-4 min-h-64 bg-gray-100 p-4">
+
+                    </div>
+                  </div>
+                } 
+                />
+                <Route path="/workout" element={
+                  <div>
+                  <h2 className="font-bold">Workout</h2>
+                  <div className="mt-4 min-h-64 bg-gray-100 p-4">
+
+                  </div>
+                  </div>
+                  } 
+                  />
+                <Route path="/history" element={
+                  <div>
+                  <h2 className="font-bold">History</h2>
+                  <div className="mt-4 min-h-64 bg-gray-100 p-4">
+
+                  </div>
+                  </div>
+                  } 
+                  />
                 <Route path="*" element={<h2>Page Not Found</h2>} />
             </Routes>
         </main>
