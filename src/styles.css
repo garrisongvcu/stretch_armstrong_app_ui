@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+nav .active {
+    color: blue;
+    font-weight: bold;
+}

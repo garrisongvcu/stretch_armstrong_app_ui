@@ -1,5 +1,6 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
+import './styles.css';
 import {
   BrowserRouter,
   Routes,
@@ -13,18 +14,20 @@ const root = createRoot(container);
 
 root.render(    
     <BrowserRouter>
-      <div>
-        <h1>Stretch Armstrong</h1>
+      <div className="p-4 space-y-4">
+        <h1 className="text-2xl font-bold text-blue-600">
+          Stretch Armstrong
+        </h1>
         <nav aria-label="Main navigation">
-          <ul>
+          <ul className="grid grid-cols-3 gap-2">
             <li>
-                <NavLink to="/dashboard">Dashboard</NavLink>
+                <NavLink to="/dashboard" className="block py-3 text-center bg-gray-100">Dashboard</NavLink>
             </li>
             <li>
-                <NavLink to="/workout">Workout</NavLink>
+                <NavLink to="/workout" className="block py-3 text-center bg-gray-100">Workout</NavLink>
             </li>
             <li>
-                <NavLink to="/history">History</NavLink>
+                <NavLink to="/history" className="block py-3 text-center bg-gray-100">History</NavLink>
             </li>
           </ul>
         </nav>

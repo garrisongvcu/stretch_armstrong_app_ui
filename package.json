@@ -2,6 +2,11 @@
   "name": "stretch-armstrong-app",
   "version": "0.0.0",
   "private": true,
+  "postcss": {
+    "plugins": {
+      "@tailwindcss/postcss": {}
+    }
+  },
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html"
